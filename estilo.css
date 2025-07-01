@@ -6,17 +6,16 @@
 
 body {
     font-family: 'Rubik', sans-serif;
-    background-color: #FFF8E1; /* tom de creme suave */
+    background-color: #FFF8E1;
     color: #222;
     font-weight: 400;
     line-height: 1.6;
     text-align: center;
 }
 
-/* === CABEÇALHO === */
 header {
-    background-color: #8B4513; /* marrom */
-    color: #FFD700; /* dourado */
+    background-color: #8B4513;
+    color: #FFD700;
     padding: 40px 20px;
 }
 
@@ -28,24 +27,24 @@ header h1 {
 }
 
 .topo {
-  background-image: url('fundo.jpg'); /* Substitua com o nome correto da imagem */
+  background-image: url('fundo.jpg');
   background-size: cover;
   background-position: center;
   padding: 40px 20px;
-  color: white; /* Para garantir contraste com o fundo */
+  color: white;
   text-align: center;
   border-radius: 15px;
 }
 
 .topo h1 {
-    font-family: 'Michroma', sans-serif; /* ou Inter/Rubik para mais peso */
-    font-size: 3rem; /* maior */
-    font-weight: 800; /* bem mais grosso */
+    font-family: 'Michroma', sans-serif;
+    font-size: 3rem;
+    font-weight: 800;
     color: #FFD700;
     margin-bottom: 20px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* sombra leve para destacar */
-    letter-spacing: 2px; /* mais espaçamento */
-    text-transform: uppercase; /* tudo em maiúsculas, se quiser garantir */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
 .slogan {
@@ -57,7 +56,6 @@ header h1 {
     font-weight: 650;
 }
 
-/* === MENU DE NAVEGAÇÃO === */
 nav {
     display: flex;
     justify-content: center;
@@ -73,14 +71,13 @@ nav a {
     border-radius: 8px;
     text-decoration: none;
     font-weight: bold;
-    transition: background 0.3s ease;
+    transition: 'background' 0.3s ease;
 }
 
 nav a:hover {
     background-color: #8B4513;
 }
 
-/* === CHAMADA PRINCIPAL === */
 .chamada h2 {
     background-color: #F4A300;
     color: #fff;
@@ -92,7 +89,6 @@ nav a:hover {
     font-size: 1.6rem;
 }
 
-/* === SEÇÕES COMUNS === */
 section {
     background-color: #FFD54F;
     padding: 25px;
@@ -108,7 +104,6 @@ section h2, section h3 {
     margin-bottom: 15px;
 }
 
-/* === CARDÁPIO (FRITOS E ASSADOS) === */
 .cardapio-duplo {
     display: flex;
     flex-wrap: wrap;
@@ -143,7 +138,6 @@ section h2, section h3 {
     font-weight: bold;
 }
 
-/* Preço ao lado do título */
 .preco-titulo {
     font-size: 1rem;
     color: #5D4037;
@@ -217,18 +211,17 @@ html {
 }
 
 footer {
-    background-color: #8B4513; /* marrom */
+    background-color: #8B4513;
     color: #fff;
-    padding: 10px 15px; /* altura menor */
+    padding: 10px 15px;
     text-align: center;
-    font-size: 0.8rem;  /* fonte pequena */
+    font-size: 0.8rem;
     font-family: 'Inter', sans-serif;
 }
 .footer-content p {
     margin: 4px 0;
 }
 
-/* === RESPONSIVO === */
 @media (max-width: 768px) {
     .cardapio-duplo {
         flex-direction: column;
