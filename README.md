@@ -1,16 +1,16 @@
-# Salgados Bom Sabor
+# 🥟 Salgados Bom Sabor
 
 Site desenvolvido para o **Salgados Bom Sabor**, oferecendo informações sobre a empresa, cardápio, contato e redes sociais.
 
 ---
 
-## Sobre o Projeto
+## 📌 Sobre o Projeto
 
 Este projeto é um site simples e responsivo desenvolvido em HTML e CSS, com o objetivo de apresentar a empresa Salgados Bom Sabor, seu cardápio de fritos e assados, informações de contato e redes sociais.
 
 ---
 
-## Tecnologias Utilizadas
+## 💻 Tecnologias Utilizadas
 
 - HTML5
 - CSS3
@@ -18,7 +18,7 @@ Este projeto é um site simples e responsivo desenvolvido em HTML e CSS, com o o
 
 ---
 
-## Funcionalidades
+## ✨ Funcionalidades
 
 - Apresentação da marca com cabeçalho estilizado e imagem de fundo
 - Seções de "Sobre Nós", cardápio dividido entre fritos e assados
@@ -29,6 +29,6 @@ Este projeto é um site simples e responsivo desenvolvido em HTML e CSS, com o o
 
 ---
 
-## Autora
+## 👩‍💻 Autora
 
 Stela David Steiner
